@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>We played rock!</title>
 
@@ -8,45 +9,82 @@
 
   <!-- Connect Font Awesome CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
+
+  <link rel="stylesheet" href="/with_bootstrap/assets/bootstrap.css">
 </head>
 
 <body>
-  <a href="rock.html">
-    <i class="far fa-hand-rock fa-fw"></i>
 
-    Play Rock
-  </a>
+  <div class="container mt-5">
+    <div class="row mb-3">
+      <div class="col-4">
+        <a href="rock.html" class="btn btn-info btn-block">
+          <i class="far fa-hand-rock fa-fw"></i>
+      
+          Play Rock
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="paper.html" class="btn btn-outline-info btn-block">
+          <i class="far fa-hand-paper fa-fw"></i>
+      
+          Play Paper
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="scissors.html" class="btn btn-outline-info btn-block">
+          <i class="far fa-hand-scissors fa-fw"></i>
+      
+          Play Scissors
+        </a>
+      </div>
+    </div>
 
-  <a href="paper.html">
-    <i class="far fa-hand-paper fa-fw"></i>
+    <div class="row mb-3">
+      <div class="col-6">
+        <div class="card border-success mb-0 text-center">
+          <div class="card-body text-success">
+            <h2 class="card-title">We played rock!</h2>
+            <p class="card-text">
+              <i class="far fa-hand-rock fa-10x"></i>
+            </p>
+          </div>
+        </div>
+      </div>
 
-    Play Paper
-  </a>
+      <div class="col-6">
+        <div class="card border-danger mb-0 text-center">
+          <div class="card-body text-danger">
+            <h2 class="card-title">They played paper!</h2>
+            <p class="card-text">
+              <i class="far fa-hand-paper fa-10x"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <a href="scissors.html">
-    <i class="far fa-hand-scissors fa-fw"></i>
+    <div class="row">
+      <div class="col-12">
+        <div class="alert alert-danger mb-3 text-center" role="alert">
+          <h2 class="display-3">
+            We lost!
+          </h2>
+        </div>
+      </div>
+    </div>
 
-    Play Scissors
-  </a>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="index.html">
+          Rules
+        </a>
+      </div>
+    </div>
 
-  <h2>We played rock!</h2>
+  </div>
 
-  <p>
-    <i class="far fa-hand-rock fa-10x"></i>
-  </p>
 
-  <h2>They played paper!</h2>
-
-  <p>
-    <i class="far fa-hand-paper fa-10x"></i>
-  </p>
-
-  <h2>
-    We lost!
-  </h2>
-
-  <a href="index.html">
-    Rules
-  </a>
 </body>
+
 </html>
